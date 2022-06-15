@@ -1,0 +1,75 @@
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color:hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'Outfit';
+    text-shadow: 0px 0px 1px hsla(217, 45%, 22%, 0.24);
+    height: 100%;
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 375px;
+    max-width: 1440px;
+    height: 100%;    
+    width: 100%;
+}
+
+.contenido {
+    background-color: hsl(0, 0%, 100%);
+    vertical-align: middle;
+    width: 550px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px hsl(218, 44%, 22%);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+img{
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.texto_uno{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%) !important;
+}
+.texto_dos{
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%) !important;
+}
+    
+/*PROCEDEMOS A REALIZAR LOS AJUSTES PARA QUE SE VEA DE FORMA CORRECTA EN UN DISPOSITIVO MOVIL AL ROMPERSE LA MEDIA DE 640 DE ANCHO COMO RESOLUCIÓN MINIMA*/
+
+@media (max-width: 800px){
+
+    .contenido{
+        width: auto;
+    }
+
+}
